@@ -16,10 +16,10 @@ This package requires **scikit-learn** and the **PCL library**.
 
 Install them with:
 
-```bash
-pip install scikit-learn
+
+sudo apt install python3-sklearn
 sudo apt install libpcl-dev ros-jazzy-pcl-conversions ros-jazzy-pcl-msgs
-```
+
 
 ---
 
@@ -32,17 +32,13 @@ sudo apt install libpcl-dev ros-jazzy-pcl-conversions ros-jazzy-pcl-msgs
 
 ## Usage
 
-To play the bag file:
-
-```bash
-ros2 bag play drink_table
-```
-
 After unpacking, building, and sourcing the workspace, launch the nodes:
 
-```bash
 ros2 launch cluster_finder hw7launch.py
-```
+
+To play the bag file:
+
+ros2 bag play drink_table
 
 ---
 
